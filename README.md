@@ -31,7 +31,7 @@ Ao final do fluxo, a imagem Docker é enviada ao Docker Hub e pode ser usada por
 Este exemplo disponibiliza uma rota de verificação de saúde (*health check*), útil para confirmar se a API iniciou e está respondendo a requisições HTTP.
 
 ## 2. Como a arquitetura funciona
-'''
+```
 flowchart TD
     A[Desenvolvedor altera o código] --> B[git push na branch main]
     B --> C[GitHub Actions inicia um runner Ubuntu]
@@ -43,7 +43,7 @@ flowchart TD
     H --> I[Publicação das tags latest e SHA]
     I --> J[Render utiliza a imagem publicada]
     J --> K[API disponível pela URL pública]
-'''
+```
 ### Papel de cada serviço
 
 - **Spring Boot:** implementa a API e responde às requisições HTTP.
