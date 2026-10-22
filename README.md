@@ -31,7 +31,10 @@ Ao final do fluxo, a imagem Docker é enviada ao Docker Hub e pode ser usada por
 Este exemplo disponibiliza uma rota de verificação de saúde (*health check*), útil para confirmar se a API iniciou e está respondendo a requisições HTTP.
 
 ## 2. Como a arquitetura funciona
-<img width="566" height="2228" alt="mermaid-diagram - Copia" src="https://github.com/user-attachments/assets/605fb21a-d686-40de-8f48-e4844e7de292" />
+
+<img width="566" height="1500" alt="mermaid-diagram - Copia" src="https://github.com/user-attachments/assets/605fb21a-d686-40de-8f48-e4844e7de292" />
+
+
 ### Papel de cada serviço
 
 - **Spring Boot:** implementa a API e responde às requisições HTTP.
