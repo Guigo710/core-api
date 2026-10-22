@@ -32,8 +32,8 @@ Este exemplo disponibiliza uma rota de verificação de saúde (*health check*),
 
 ## 2. Como a arquitetura funciona
 
-```mermaid
-flowchart TD
+<pre>
+
     A[Desenvolvedor altera o código] --> B[git push na branch main]
     B --> C[GitHub Actions inicia um runner Ubuntu]
     C --> D[Checkout do repositório]
@@ -44,7 +44,7 @@ flowchart TD
     H --> I[Publicação das tags latest e SHA]
     I --> J[Render utiliza a imagem publicada]
     J --> K[API disponível pela URL pública]
-```
+</pre>
 
 ### Papel de cada serviço
 
