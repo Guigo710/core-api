@@ -33,7 +33,7 @@ Este exemplo disponibiliza uma rota de verificação de saúde (*health check*),
 ## 2. Como a arquitetura funciona
 
 <pre>
-
+flowchartmd
     A[Desenvolvedor altera o código] --> B[git push na branch main]
     B --> C[GitHub Actions inicia um runner Ubuntu]
     C --> D[Checkout do repositório]
